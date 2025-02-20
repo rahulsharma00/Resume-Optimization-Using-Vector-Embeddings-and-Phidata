@@ -13,9 +13,12 @@ Resumate is a Python-based tool that helps tailor resumes to specific job descri
 🚀 Support for multiple resume formats (DOCX, TXT).<br />
 🚀 UI using streamlit/gradio<br />
 
-Here’s a clean installation guide for your GitHub project!  
+## **Known Issues & Limitations** ⚠️  
 
----
+- **Accuracy Needs Improvement**: The output is not always perfect and may require manual adjustments.  
+- **Lack of Contextual Understanding**: TF-IDF checks for missing words but does not fully understand their meaning.  
+- **Incomplete Resume Suggestions**: OpenAI sometimes generates suggestions that need further refining.  
+- **Vector Embedding Feature Not Yet Implemented**: The project currently relies on TF-IDF instead of advanced vector search.
 ---
 ## 📥 **Installation Instructions**
 
